@@ -1,0 +1,91 @@
+.container{
+    font-size: 22px;
+    border: 1px solid crimson;
+    max-width: 1440px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#form1{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main div{
+    border: .5px solid rgb(205, 191, 191);
+    padding: 5px 50px;
+}
+.main {
+    margin-top: 10px;
+    font-weight: 600;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.names{
+    margin-top: 111px;
+    max-width: 420px;
+    margin-right: 50px;
+}
+
+.names label{
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.names input{
+    font-size: 17px;
+    width: 400px;
+    padding: 5px;
+    border: .5px solid rgb(187, 176, 176);
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.save-btn{
+    padding: 7px 20px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(68, 68, 191);
+}
+
+.div1,
+.div2{
+    display: flex;
+
+}
+
+#action{
+    display: flex;
+}
+
+#act-btn1{
+    padding: 6px 25px;
+    background-color: rgb(76, 172, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#act-btn2{
+    padding: 6px 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.div1 div,
+.div2 div{
+    padding: 5px 32px;
+    border: 1px solid rgb(193, 181, 181);
+    font-size: 19px;
+
+}
+
